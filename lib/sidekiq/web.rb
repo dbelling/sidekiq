@@ -31,6 +31,7 @@ module Sidekiq
       "Retries"   => 'retries',
       "Scheduled" => 'scheduled',
       "Dead"      => 'morgue',
+      "Cleaner"   => 'cleaner'
     }
 
     class << self
